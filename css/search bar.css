@@ -1,0 +1,107 @@
+ .main {
+            margin: 30px 200px;
+        }
+
+     
+        .main .search-form {
+            border: 1px solid green;
+        }
+        .main .search-form .form-item {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            border: 1px dotted gray;
+        }
+        .main .search-form .form-item label {
+            display: inline-block;
+            width: 80px;
+            text-align: right;
+            font-weight: bold;
+			padding-right: 10px;
+        }
+        .main .search-form .form-item input {
+		 padding-left: 10px;
+            display: inline-block;
+            width: 150px;
+            height: 40px;
+            font-size: 20px;
+        }
+        .main .search-form .form-item button {
+            display: inline-block;
+            height: 40px;
+            font-size: 20px;
+        }
+
+      
+        .main .search-result {
+            margin-top: 50px;
+            border: 2px double #000000;
+        }
+        .main .search-result .empty-info {
+            text-align: center;
+            color: red;
+        }
+        .main .search-result .result-info {
+		margin: 10px;
+            color: green;
+            border-bottom: 1px solid lightgray;
+        }
+        .main .search-result .search-result-list {
+		
+            list-style-type: decimal;
+        }
+        .main .search-result .search-result-list .search-result-item {
+		margin: 10px;
+            border-bottom: 2px dotted lightgray;
+        }
+        .main .search-result .search-result-list .search-result-item:last-child {
+		
+            border-bottom: none;
+        }
+		
+*{margin:0;padding: 0;list-style: none;text-decoration: none;}
+#nav{width: 100%;height: 40px;background: #ccc;margin: 0 auto;text-align:center;}
+#nav ul{background: #aaa}
+#nav ul li{ min-width: 155px;float:left; display:block; height: 40px; line-height: 40px; padding: 0 20px; position: relative;}
+#nav ul li:hover{background: #cea;}
+#nav ul li ul li{float: none;}
+#nav ul li ul{position: absolute;top:40px;left: 0; display: none;}
+#nav ul li ul li:hover{background:#FF9933;}
+#nav ul li:hover ul{display: block;}
+
+
+.zerogrid{ position: relative; width: 100%; margin: 0 auto; padding: 0;}
+.zerogrid .row{ margin-bottom: 10px;}
+.zerogrid .offleft{ margin-left: 0px;}
+.zerogrid .offright{ margin-right: 0px;}
+.zerogrid .offtop{ margin-top: 0px;}
+.zerogrid .offbottom{ margin-bottom: 0px;}
+	
+.zerogrid .col05,.zerogrid .col06{ float: left; display: inline;}
+.zerogrid .col05{ width: 500px; }
+.zerogrid .col06{ width: 340px; }
+
+.name { font-size:40px; color: transparent;-webkit-text-stroke: 2px white;letter-spacing: 0.04em; margin-left:80%; padding-top:30px;}
+	
+header {height: 145px;width:100%; background:url('../image/bg-header.png') repeat-x;margin-bottom:0px;}
+header #logo { padding-top: 40px; padding-left:10%;}
+
+.header-top-righ {position: absolute;left: 75%; top:105px;width: 39%;}
+.header-top-righ a { color:#999;font-size: 20px; padding-right:10px;}
+.header-top-righ ul li {margin-right: 5px; float:left; color:#666666;}
+
+
+.about {color:#666666; font-size:14px; margin-left:100px; margin-top:50px;}
+.about p { font-weight:bold;}
+.about a{ color:#666666;}
+.idea{width: 800px; position:inherit;left: 50%; margin-left: 100px;background-image: -webkit-linear-gradient(left,blue,#66ffff 10%,#cc00ff 20%,#CC00CC 30%, #CCCCFF 40%, #00FFFF 50%,#CCCCFF 60%,#CC00CC 70%,#CC00FF 80%,#66FFFF 90%,blue 100%); -webkit-text-fill-color: transparent;-webkit-background-clip: text;    -webkit-background-size: 200% 100%;  -webkit-animation: masked-animation 4s linear infinite;font-size: 60px;}
+.IS { font-size:40px; color: transparent;-webkit-text-stroke: 2px red;letter-spacing: 0.04em;}
+img.i2{ width:40px; height:40px;}
+
+.footer{width:100%;}
+.about{width:150px; height:80px;  float:left; margin-top:10%;}
+.idea{width:650px; height:80px;  float:left;  margin-top:10%;}
+.IS{width:25%; height:80px; float:left; margin-top:13%;}
+
+#copyright{ margin-top:13%; }
+#copyright ul li{float:left; line-height: 40px; padding: 0 2px; position: relative; color:#999999; font-size:12px;}
